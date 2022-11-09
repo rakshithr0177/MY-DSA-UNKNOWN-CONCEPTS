@@ -110,7 +110,7 @@ void buildFromLevelOrder(node* root){
 		cin>> rightData;
 
 		if(rightData != -1){
-			temp->right = new node(rigtrata);
+			temp->right = new node(rightData);
 			q.push(temp->right);
 		}
 	}
